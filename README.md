@@ -10,10 +10,24 @@ Ce projet a été réalisé par :
 ## 📖 Introduction et Objectifs
 Ce projet consiste en le développement d'une plateforme de commerce électronique robuste et moderne. L'objectif principal est de démontrer la maîtrise d'une architecture logicielle complète, de la gestion de base de données jusqu'à l'interface utilisateur.
 
-**Points forts de la solution :**
-- **Gestion d'état global** : Utilisation de la Context API de React pour synchroniser le panier entre les composants de manière fluide.
-- **Validation atomique des stocks** : Logique backend garantissant que les commandes ne dépassent jamais les disponibilités réelles (protection contre l'overselling).
-- **Architecture conteneurisée** : Déploiement facilité, isolé et reproductible via Docker et Docker Compose.
+---
+
+## 👥 Utilisateurs et Cas d'Utilisation
+Le système est conçu autour de deux profils d'utilisateurs distincts. L'architecture repose sur un principe d'héritage d'acteurs.
+
+### 1. Client (Utilisateur Standard)
+Le client est l'utilisateur final qui interagit avec la boutique pour effectuer des achats.
+* **Recherche de produits** : Consultation du catalogue avec filtres dynamiques par nom, prix et catégorie.
+* **Gestion du Panier** : Ajout et modification d'articles de manière persistante via la Context API.
+* **Passation de commande** : Validation du panier avec vérification automatique de la disponibilité des stocks.
+* **Historique personnel** : Consultation de l'état et du détail des commandes passées.
+
+### 2. Administrateur (Privilèges étendus)
+L'Administrateur hérite de toutes les fonctionnalités du Client et possède des droits de gestion exclusifs sur la plateforme.
+* **Gestion du catalogue (CRUD)** : Capacité d'ajouter, modifier ou supprimer des produits de la base de données.
+* **Dashboard Business Intelligence** : Accès à une interface de monitoring affichant le chiffre d'affaires total et le nombre d'utilisateurs.
+* **Surveillance des stocks** : Système d'alerte pour les produits en rupture de stock ou à faible quantité.
+* **Gestion des commandes** : Vue d'ensemble sur toutes les transactions effectuées sur la plateforme.
 
 ---
 
