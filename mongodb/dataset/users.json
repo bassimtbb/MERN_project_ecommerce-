@@ -1,0 +1,44 @@
+[
+    {
+        "_id": {
+            "$oid": "6540b1c2d3e4f5a6b7c8d901"
+        },
+        "nom": "Martin",
+        "prenom": "Sophie",
+        "email": "admin@shop.com",
+        "password": "$2b$10$N9qo8uLOickgx2ZMRZoMyeIjZAgcfl7p92ldGxad68LJZdL17lhWy",
+        "role": "Admin",
+        "age": 32,
+        "telephone": "0612345678",
+        "adresse": {
+            "rue": "12 Rue de la Paix",
+            "ville": "Paris",
+            "codePostal": "75001",
+            "pays": "France"
+        },
+        "actif": true,
+        "profilePicture": "",
+        "panier": []
+    },
+    {
+        "_id": {
+            "$oid": "6540b1c2d3e4f5a6b7c8d902"
+        },
+        "nom": "Dupont",
+        "prenom": "Lucas",
+        "email": "client@shop.com",
+        "password": "$2b$10$N9qo8uLOickgx2ZMRZoMyeIjZAgcfl7p92ldGxad68LJZdL17lhWy",
+        "role": "client",
+        "age": 24,
+        "telephone": "0698765432",
+        "adresse": {
+            "rue": "8 Avenue des Fleurs",
+            "ville": "Lyon",
+            "codePostal": "69001",
+            "pays": "France"
+        },
+        "actif": true,
+        "profilePicture": "",
+        "panier": []
+    }
+]

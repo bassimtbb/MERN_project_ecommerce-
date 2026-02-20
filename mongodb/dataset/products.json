@@ -1,0 +1,134 @@
+[
+    {
+        "_id": {
+            "$oid": "6540a1b2c3d4e5f6a7b8c901"
+        },
+        "name": "Sony WH-1000XM5 Wireless Headphones",
+        "price": 349.99,
+        "category": "electronics",
+        "description": "Industry-leading noise cancelling headphones with up to 30-hour battery life and crystal-clear hands-free calling.",
+        "image": "",
+        "stock": 25
+    },
+    {
+        "_id": {
+            "$oid": "6540a1b2c3d4e5f6a7b8c902"
+        },
+        "name": "Apple MacBook Air 15\" M3 Chip",
+        "price": 1299.00,
+        "category": "electronics",
+        "description": "Supercharged by M3, with up to 18 hours of battery life, a stunning 15.3-inch Liquid Retina display.",
+        "image": "",
+        "stock": 10
+    },
+    {
+        "_id": {
+            "$oid": "6540a1b2c3d4e5f6a7b8c903"
+        },
+        "name": "Logitech MX Master 3S Mouse",
+        "price": 99.99,
+        "category": "electronics",
+        "description": "Advanced wireless mouse with ultra-fast MagSpeed scrolling, ergonomic design, and near-silent clicking.",
+        "image": "",
+        "stock": 40
+    },
+    {
+        "_id": {
+            "$oid": "6540a1b2c3d4e5f6a7b8c904"
+        },
+        "name": "Samsung 27\" 4K UHD Monitor",
+        "price": 449.99,
+        "category": "electronics",
+        "description": "IPS panel with 4K resolution, 99% sRGB color coverage, and USB-C connectivity.",
+        "image": "",
+        "stock": 15
+    },
+    {
+        "_id": {
+            "$oid": "6540a1b2c3d4e5f6a7b8c905"
+        },
+        "name": "Uniqlo Ultra Light Down Jacket",
+        "price": 79.90,
+        "category": "clothing",
+        "description": "Packable, lightweight down jacket perfect for layering. Available in multiple colors.",
+        "image": "",
+        "stock": 60
+    },
+    {
+        "_id": {
+            "$oid": "6540a1b2c3d4e5f6a7b8c906"
+        },
+        "name": "Levi's 501 Original Straight Jeans",
+        "price": 59.95,
+        "category": "clothing",
+        "description": "The original blue jean since 1873. Button fly, straight leg, and a roomier seat and thigh.",
+        "image": "",
+        "stock": 80
+    },
+    {
+        "_id": {
+            "$oid": "6540a1b2c3d4e5f6a7b8c907"
+        },
+        "name": "Nike Dri-FIT Performance T-Shirt",
+        "price": 34.99,
+        "category": "clothing",
+        "description": "Moisture-wicking fabric keeps you dry and comfortable during any workout.",
+        "image": "",
+        "stock": 120
+    },
+    {
+        "_id": {
+            "$oid": "6540a1b2c3d4e5f6a7b8c908"
+        },
+        "name": "Adidas Ultraboost 22 Running Shoes",
+        "price": 189.95,
+        "category": "sport",
+        "description": "Responsive BOOST midsole and Primeknit+ upper for an incredible running experience.",
+        "image": "",
+        "stock": 35
+    },
+    {
+        "_id": {
+            "$oid": "6540a1b2c3d4e5f6a7b8c909"
+        },
+        "name": "Moleskine Classic Notebook A5",
+        "price": 19.90,
+        "category": "books",
+        "description": "Hard cover, 240 pages of acid-free paper, elastic closure, and an expandable inner pocket.",
+        "image": "",
+        "stock": 200
+    },
+    {
+        "_id": {
+            "$oid": "6540a1b2c3d4e5f6a7b8c910"
+        },
+        "name": "Clean Code by Robert C. Martin",
+        "price": 38.99,
+        "category": "books",
+        "description": "A handbook of agile software craftsmanship. Essential reading for every developer.",
+        "image": "",
+        "stock": 50
+    },
+    {
+        "_id": {
+            "$oid": "6540a1b2c3d4e5f6a7b8c911"
+        },
+        "name": "Peak Design Everyday Backpack 20L",
+        "price": 279.95,
+        "category": "accessories",
+        "description": "Camera and laptop backpack with adaptable dividers and a flexible MagLatch closure.",
+        "image": "",
+        "stock": 18
+    },
+    {
+        "_id": {
+            "$oid": "6540a1b2c3d4e5f6a7b8c912"
+        },
+        "name": "Anker 65W USB-C GaN Charger",
+        "price": 45.99,
+        "category": "electronics",
+        "description": "Charges a MacBook Air to 50% in 30 minutes. Compact GaN technology with 3 ports.",
+        "image": "",
+        "stock": 75
+    }
+]
