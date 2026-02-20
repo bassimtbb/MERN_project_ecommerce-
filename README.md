@@ -1,7 +1,14 @@
 # Plateforme eCommerce MERN Full-Stack 🚀
 
+## 👥 Équipe du Projet
+Ce projet a été réalisé par :
+* **Bassim Tabbeb**  
+* **Walid HDILOU**
+* **Mathis PENAGOS**
+* **Joud ATALLAH**
+
 ## 📖 Introduction et Objectifs
-Ce projet consiste en le développement d'une plateforme de commerce électronique robuste et moderne, conçue comme projet de fin d'études. L'objectif principal est de démontrer la maîtrise d'une architecture logicielle complète, de la gestion de base de données jusqu'à l'interface utilisateur.
+Ce projet consiste en le développement d'une plateforme de commerce électronique robuste et moderne. L'objectif principal est de démontrer la maîtrise d'une architecture logicielle complète, de la gestion de base de données jusqu'à l'interface utilisateur.
 
 **Points forts de la solution :**
 - **Gestion d'état global** : Utilisation de la Context API de React pour synchroniser le panier entre les composants de manière fluide.
@@ -26,10 +33,11 @@ Le modèle MVC (Modèle-Vue-Contrôleur) désigne notre choix d'architecture log
 - **Modèle** : Gère la logique métier et les données stockées dans MongoDB via Mongoose.
 - **Vue** : Se concentre sur la représentation des données (JSON) consommées par le frontend Next.js.
 - **Contrôleur** : Assure la gestion des interactions. Il reçoit les requêtes HTTP, demande au modèle d'effectuer les actions nécessaires et renvoie les résultats.
-
+![Schéma MVC](./ReadmeFiles/mvc.png)
 ### Architecture d'API adoptée : REST
 Nous avons opté pour une API RESTful pour sa simplicité et son adaptabilité via le protocole HTTP. 
 Cette interface permet aux utilisateurs d'appeler notre API et de recevoir des résultats standardisés au format JSON. En raison de la sensibilité des données, cette API intègre des mécanismes de sécurisation adéquats.
+![Schéma MVC](./ReadmeFiles/rest%20api.png)
 
 ---
 
@@ -39,7 +47,7 @@ Cette interface permet aux utilisateurs d'appeler notre API et de recevoir des r
 
 ### Lancement de l'infrastructure :
 ```bash
-git clone <url-du-depot>
+git clone https://github.com/bassimtbb/MERN_project_ecommerce-.git
 cd mern
 # Réinitialiser les volumes pour appliquer le schéma de données 'stock'
 docker compose down -v
